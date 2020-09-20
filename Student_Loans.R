@@ -6,7 +6,7 @@ library(readxl)
 library(viridis)
 library(extrafont)
 
-font_import()
+#font_import()
 
 library(ggplot2)
 
