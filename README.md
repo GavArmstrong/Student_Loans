@@ -23,3 +23,5 @@ Location (Portfolio-by-Location.xls)
     ## 6 Colorado                      27.1                      743.
 
 <img src="Debt per Student.png"/>
+
+\#render(“README.rmd”, output\_format=“all”)

@@ -26,3 +26,5 @@ head(Loans)
 ```
 
 <img src="Debt per Student.png"/>
+
+#render("README.rmd", output_format="all")
