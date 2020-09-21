@@ -52,7 +52,7 @@ States <- st_as_sf(maps::map("state", plot = FALSE, fill = TRUE)) %>%
 States %<>% left_join(Loans)
 
 # Simple plot of State boundaries
-ggplot(USA) +
+Debt_per_Student <- ggplot(USA) +
   geom_sf(fill = "antiquewhite1",
           lwd=0,
           color="black") +
@@ -87,4 +87,5 @@ ggplot(USA) +
                                      family="Arial",
                                      size=7))
 
-ggsave("Debt per Student.png", device="png")
+
+ggsave("Debt per Student.png", device="png", width=6.4, height=4)

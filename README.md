@@ -12,8 +12,6 @@ geographic and demographic groups.
 One such data file is Federal Student Loan Portfolio by Borrower
 Location (Portfolio-by-Location.xls)
 
-    head(Loans)
-
     ## # A tibble: 6 x 3
     ##   Location   `Balance (in billions)` `Borrowers (in thousands)`
     ##   <chr>                        <dbl>                      <dbl>

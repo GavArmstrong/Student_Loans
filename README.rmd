@@ -21,7 +21,7 @@ One such data file is Federal Student Loan Portfolio by Borrower Location (Portf
 Loans <- list.files(pattern="Portfolio-by-Location") %>%
   read_excel(skip=5)
 ```
-```{r}
+```{r echo=FALSE}
 head(Loans)
 ```
 
