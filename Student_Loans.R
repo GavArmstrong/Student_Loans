@@ -89,3 +89,5 @@ Debt_per_Student <- ggplot(USA) +
 
 
 ggsave("Debt per Student.png", device="png", width=6.4, height=4)
+
+print(Debt_per_Student)
