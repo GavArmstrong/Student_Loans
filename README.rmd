@@ -43,7 +43,7 @@ Loans %<>% select(State = Location,
 head(Loans)
 ```
 
-We want to present this data in a concise way. One way to achieve this is using a choropleth (map disp).
+We want to present this data in a concise way. One way to achieve this is using a choropleth (a thematic map displaying statistical information).
 
 There are many different packages capable of creating choropleths in R.
 
