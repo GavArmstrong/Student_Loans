@@ -40,7 +40,8 @@ in an open status, owed by borrowers in each state:
     ## 6 Colorado                      27413.
 
 We want to present this data in a concise way. One way to achieve this
-is using a choropleth (map disp).
+is using a choropleth (a thematic map displaying statistical
+information).
 
 There are many different packages capable of creating choropleths in R.
 
